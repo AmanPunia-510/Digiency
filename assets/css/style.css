@@ -723,11 +723,11 @@ ul {
     }
 
     .email-box {
-            flex-direction: column;
-                height: 102px;
-                align-items: center;
-                justify-content: space-between !important;
-                margin-top: 20px;
+        flex-direction: column;
+        height: 102px;
+        align-items: center;
+        justify-content: space-between !important;
+        margin-top: 20px;
     }
 
     .subscribe-btn {
@@ -735,7 +735,12 @@ ul {
         height: 50px;
     }
 
-    .email{
+    .email {
         width: 100%;
+    }
+
+    .forward {
+        font-size: var(--font-size-25);
+        line-height: 150%;
     }
 }
