@@ -645,12 +645,16 @@ ul {
         display: flex !important;
         flex-direction: column;
         width: 100%;
-        height: 100vh;
+        height: 101vh;
         position: fixed;
         left: -100%;
         background: var(--white-color);
         justify-content: center;
         transition: all 200ms linear !important;
+    }
+
+    ul{
+        padding-left: none !important;
     }
 
     .show {
