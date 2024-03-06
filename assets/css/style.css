@@ -570,6 +570,11 @@ ul {
     background-color: var(--white-color);
 }
 
+.commen-footer-svg:hover path{
+fill: var(--primary-color);
+cursor: pointer;
+}
+
 .footer-line {
     height: 1px;
     background-color: var(--white-color);
