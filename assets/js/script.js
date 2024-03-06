@@ -9,19 +9,19 @@ $('.slick-slider').slick({
     nextArrow: (".next"),
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 1200,
             settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                slidesToShow: 2,
+                slidesToScroll: 1,
                 infinite: true,
                 dots: false
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 992,
             settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToShow: 1,
+                slidesToScroll: 1
             }
         },
         {
@@ -53,3 +53,12 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+// navabr
+
+let navbar = document.querySelector(".navbar-items");
+let menu = document.querySelector(".menubar");
+
+menu.addEventListener("click", function () {
+    navbar.classList.toggle("show");
+})
