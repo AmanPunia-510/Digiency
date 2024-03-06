@@ -302,6 +302,10 @@ ul {
     border-radius: 10px;
 }
 
+.section5{
+    overflow: hidden;
+}
+
 .ux-design {
     margin-top: 15px;
     margin-bottom: 5px;
@@ -404,6 +408,10 @@ ul {
     padding-bottom: 120px;
 }
 
+.slick-slider {
+    overflow: hidden;
+}
+
 .slick-box {
     padding: 25px;
     background-color: var(--white-color);
@@ -457,6 +465,10 @@ ul {
     padding-top: 11px;
     height: 108px;
     border-radius: 5px;
+}
+
+.percentage-box:hover{
+        box-shadow: 7px 6px 9px #d5cccc;
 }
 
 .width-86 {
@@ -630,6 +642,10 @@ ul {
     border-radius: 4px;
 }
 
+.ux-box:hover{
+        box-shadow: 3px 4px 6px;
+}
+
 @media (min-width:900px) and (max-width:1400px) {
     .stiller {
         max-width: 299px;
@@ -653,7 +669,7 @@ ul {
         transition: all 200ms linear !important;
     }
 
-    ul{
+    ul {
         padding-left: unset !important;
     }
 
@@ -687,7 +703,7 @@ ul {
     }
 
     .expert-card {
-        margin-top: 40px;
+        margin-top: 24px !important;
     }
 
     .single-card {
@@ -697,6 +713,10 @@ ul {
     .my-120 {
         margin-top: unset;
         margin-bottom: unset;
+    }
+
+    .copywr-svg {
+        margin-bottom: 15px;
     }
 }
 
@@ -748,7 +768,15 @@ ul {
         line-height: 150%;
     }
 
-    .slick-box{
+    .slick-box {
         overflow: scroll;
+    }
+
+    .subscribe-box {
+        padding: 50px 0px;
+    }
+
+    .sec1-h1{
+        font-size: var(--font-size-25);
     }
 }
