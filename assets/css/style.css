@@ -654,7 +654,7 @@ ul {
     }
 
     ul{
-        padding-left: none !important;
+        padding-left: unset !important;
     }
 
     .show {
