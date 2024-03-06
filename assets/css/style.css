@@ -743,4 +743,8 @@ ul {
         font-size: var(--font-size-25);
         line-height: 150%;
     }
+
+    .slick-box{
+        overflow: scroll;
+    }
 }
