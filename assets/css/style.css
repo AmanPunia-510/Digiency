@@ -368,7 +368,6 @@ ul {
 }
 
 .recents-projects {
-    overflow-x: scroll;
     margin-bottom: 30px;
 }
 
@@ -386,7 +385,7 @@ ul {
 }
 
 .recents {
-    padding: 15px 40px;
+    padding: 15px 18px;
     text-wrap: nowrap !important;
 }
 
@@ -727,6 +726,10 @@ ul {
     .copywr-svg {
         margin-bottom: 15px;
     }
+
+        .recents-projects{
+            overflow-x: scroll;
+        }
 }
 
 @media (max-width:768px) {
