@@ -455,13 +455,13 @@ ul {
 .prev {
     position: absolute;
     top: 57%;
-    left: 50px;
+    left: 15px;
 }
 
 .next {
     position: absolute;
     top: 57%;
-    right: 50px;
+    right: 15px;
     border: 1px solid var(--primary-color);
 }
 
