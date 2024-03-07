@@ -199,8 +199,8 @@
     gap: 30px;
 }
 
-.gap-40 {
-    gap: 40px;
+.gap-20 {
+    gap: 0px;
 }
 
 ul {
@@ -376,6 +376,15 @@ ul {
     display: none;
 }
 
+.my-70{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.stiller3{
+        max-width: 250px;
+}
+
 .recents {
     padding: 15px 40px;
     text-wrap: nowrap !important;
@@ -446,13 +455,13 @@ ul {
 .prev {
     position: absolute;
     top: 57%;
-    left: 10px;
+    left: 50px;
 }
 
 .next {
     position: absolute;
     top: 57%;
-    right: 10px;
+    right: 50px;
     border: 1px solid var(--primary-color);
 }
 
@@ -626,7 +635,7 @@ ul {
 }
 
 .stiller {
-    max-width: 291px;
+    max-width: 339px;
 }
 
 .menubar {
@@ -757,6 +766,7 @@ ul {
     .subscribe-btn {
         width: 160px;
         height: 50px;
+        font-size: var(--font-size-14);
     }
 
     .email {

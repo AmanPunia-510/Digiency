@@ -9,6 +9,13 @@ $('.slick-slider').slick({
     nextArrow: (".next"),
     responsive: [
         {
+            breakpoint: 1400,
+            settings: {
+                autoplay: true,
+                autoplaySpped: 3000,
+            }
+        },
+        {
             breakpoint: 1200,
             settings: {
                 slidesToShow: 2,
